@@ -1,7 +1,16 @@
 {
-  "name": "kanban-e2e",
+  "name": "agent-im-full16-full-1775664419258",
+  "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "test": "node -e \"process.exit(0)\""
+    "test": "node scripts/run-vitest.mjs",
+    "test:coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitest/coverage-v8": "^3.1.1",
+    "typescript": "^5.8.2",
+    "vitest": "^3.1.1"
   }
 }
